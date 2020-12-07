@@ -45,7 +45,7 @@ public class Calculator {
 			}
 			case "/":
 			{
-				if (i2.equals(0))
+				if (i2.compareTo(BigDecimal.ZERO) == 0)
 				{
 					System.out.println("除数不能为0");
 					result = null;
